@@ -1,0 +1,35 @@
+name: Generate GitHub profile trophies
+
+on:
+  schedule:
+    - cron: "23 1 * * 1"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate trophy SVG
+        uses: soulteary/github-profile-trophy-action@v1
+        with:
+          options: 'username=prasoonkashyap18&theme=onedark&no-frame=true&no-bg=true&margin-w=8&column=6'
+          path: .github/assets/trophy.svg
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+
+      - name: Commit generated trophy
+        run: |
+          if git diff --quiet -- .github/assets/trophy.svg; then
+            echo "Trophy SVG is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add .github/assets/trophy.svg
+          git commit -m "Update GitHub profile trophies"
+          git push
