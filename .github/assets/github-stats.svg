@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="190" viewBox="0 0 700 190" role="img">
+<title>GitHub Overview</title>
+<rect width="700" height="190" rx="16" fill="#0D0B18" stroke="#30294A"/>
+<text x="24" y="34" fill="#E5E7EB" font-size="17" font-weight="700">GitHub Overview</text>
+<text x="676" y="33" text-anchor="end" fill="#A7A1BC" font-size="11">live profile data</text>
+<rect x="24" y="57" width="152" height="105" rx="11" fill="#171329"/>
+<text x="37" y="83" fill="#A7A1BC" font-size="10" letter-spacing=".6">CONTRIBUTIONS</text>
+<text x="37" y="119" fill="#A78BFA" font-size="27" font-weight="700">234</text>
+<text x="37" y="143" fill="#A7A1BC" font-size="10">last 12 months</text>
+<rect x="192" y="57" width="152" height="105" rx="11" fill="#171329"/>
+<text x="205" y="83" fill="#A7A1BC" font-size="10" letter-spacing=".6">PUBLIC REPOS</text>
+<text x="205" y="119" fill="#A78BFA" font-size="27" font-weight="700">7</text>
+<text x="205" y="143" fill="#A7A1BC" font-size="10">owned repositories</text>
+<rect x="360" y="57" width="152" height="105" rx="11" fill="#171329"/>
+<text x="373" y="83" fill="#A7A1BC" font-size="10" letter-spacing=".6">STARS EARNED</text>
+<text x="373" y="119" fill="#A78BFA" font-size="27" font-weight="700">3</text>
+<text x="373" y="143" fill="#A7A1BC" font-size="10">across public repos</text>
+<rect x="528" y="57" width="152" height="105" rx="11" fill="#171329"/>
+<text x="541" y="83" fill="#A7A1BC" font-size="10" letter-spacing=".6">FOLLOWERS</text>
+<text x="541" y="119" fill="#A78BFA" font-size="27" font-weight="700">0</text>
+<text x="541" y="143" fill="#A7A1BC" font-size="10">GitHub community</text>
+<text x="24" y="179" fill="#A7A1BC" font-size="10">Commits 226  ·  PRs 0  ·  Issues 0</text>
+</svg>

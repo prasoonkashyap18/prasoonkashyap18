@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="220" viewBox="0 0 700 220" role="img">
+<title>Most Used Languages</title>
+<rect width="700" height="220" rx="16" fill="#0D0B18" stroke="#30294A"/>
+<text x="24" y="34" fill="#E5E7EB" font-size="17" font-weight="700">Most Used Languages</text>
+<text x="676" y="33" text-anchor="end" fill="#A7A1BC" font-size="11">by code bytes in public repositories</text>
+<text x="24" y="78" fill="#E5E7EB" font-size="12">Python</text>
+<rect x="160" y="66" width="430" height="13" rx="6.5" fill="#30294A"/>
+<rect x="160" y="66" width="249.8" height="13" rx="6.5" fill="#A78BFA"/>
+<text x="670" y="78" text-anchor="end" fill="#A7A1BC" font-size="11">58.1%</text>
+<text x="24" y="103" fill="#E5E7EB" font-size="12">TypeScript</text>
+<rect x="160" y="91" width="430" height="13" rx="6.5" fill="#30294A"/>
+<rect x="160" y="91" width="150.6" height="13" rx="6.5" fill="#8B5CF6"/>
+<text x="670" y="103" text-anchor="end" fill="#A7A1BC" font-size="11">35.0%</text>
+<text x="24" y="128" fill="#E5E7EB" font-size="12">CSS</text>
+<rect x="160" y="116" width="430" height="13" rx="6.5" fill="#30294A"/>
+<rect x="160" y="116" width="11.0" height="13" rx="6.5" fill="#6366F1"/>
+<text x="670" y="128" text-anchor="end" fill="#A7A1BC" font-size="11">2.6%</text>
+<text x="24" y="153" fill="#E5E7EB" font-size="12">JavaScript</text>
+<rect x="160" y="141" width="430" height="13" rx="6.5" fill="#30294A"/>
+<rect x="160" y="141" width="8.6" height="13" rx="6.5" fill="#C084FC"/>
+<text x="670" y="153" text-anchor="end" fill="#A7A1BC" font-size="11">2.0%</text>
+<text x="24" y="178" fill="#E5E7EB" font-size="12">HTML</text>
+<rect x="160" y="166" width="430" height="13" rx="6.5" fill="#30294A"/>
+<rect x="160" y="166" width="7.9" height="13" rx="6.5" fill="#7C3AED"/>
+<text x="670" y="178" text-anchor="end" fill="#A7A1BC" font-size="11">1.8%</text>
+<text x="24" y="203" fill="#E5E7EB" font-size="12">Java</text>
+<rect x="160" y="191" width="430" height="13" rx="6.5" fill="#30294A"/>
+<rect x="160" y="191" width="2.1" height="13" rx="6.5" fill="#4F46E5"/>
+<text x="670" y="203" text-anchor="end" fill="#A7A1BC" font-size="11">0.5%</text>
+</svg>
