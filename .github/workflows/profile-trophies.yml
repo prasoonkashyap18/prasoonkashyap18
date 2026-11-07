@@ -1,6 +1,11 @@
 name: Generate GitHub profile trophies
 
 on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/profile-trophies.yml"
   schedule:
     - cron: "23 1 * * 1"
   workflow_dispatch:
@@ -20,7 +25,8 @@ jobs:
         with:
           options: 'username=prasoonkashyap18&theme=onedark&no-frame=true&no-bg=true&margin-w=8&column=6'
           path: .github/assets/trophy.svg
-          token: ${{ secrets.PROFILE_STATS_TOKEN }}
+          # No personal token required for public profile statistics.
+          # The action automatically falls back to the repository GITHUB_TOKEN.
 
       - name: Commit generated trophy
         run: |
