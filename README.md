@@ -213,12 +213,15 @@ Covered data preprocessing, visualization, statistical analysis and interpretati
 
 <div align="center">
 
-<img height="175" src="https://github-readme-stats.vercel.app/api?username=prasoonkashyap18&show_icons=true&hide_border=true&bg_color=0D0B18&title_color=A78BFA&icon_color=8B5CF6&text_color=E5E7EB&rank_icon=github" alt="GitHub statistics" />
-<img height="175" src="https://github-readme-stats.vercel.app/api/top-langs/?username=prasoonkashyap18&layout=compact&hide_border=true&bg_color=0D0B18&title_color=A78BFA&text_color=E5E7EB" alt="Most used languages" />
+<img width="100%" src="./.github/assets/github-stats.svg" alt="GitHub overview statistics" />
 
 <br/>
 
-<img width="65%" src="https://streak-stats.demolab.com?user=prasoonkashyap18&hide_border=true&background=0D0B18&ring=8B5CF6&fire=A78BFA&currStreakLabel=A78BFA&sideLabels=E5E7EB&currStreakNum=FFFFFF&sideNums=FFFFFF&dates=9CA3AF" alt="GitHub contribution streak" />
+<img width="100%" src="./.github/assets/top-languages.svg" alt="Most used programming languages" />
+
+<br/>
+
+<img width="100%" src="./.github/assets/streak.svg" alt="GitHub contribution streak" />
 
 </div>
 
