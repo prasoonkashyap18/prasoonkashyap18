@@ -251,7 +251,11 @@ Covered data preprocessing, visualization, statistical analysis and interpretati
 
 <div align="center">
 
-<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake-dark.svg" />\n  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake.svg" />\n  <img src="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake" />\n</picture>
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake-dark.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake.svg" />
+  <img src="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake" />
+</picture>
 
 </div>
 
