@@ -25,8 +25,7 @@ jobs:
         with:
           options: 'username=prasoonkashyap18&theme=onedark&no-frame=true&no-bg=true&margin-w=8&column=6'
           path: .github/assets/trophy.svg
-          # No personal token required for public profile statistics.
-          # The action automatically falls back to the repository GITHUB_TOKEN.
+          token: ${{ secrets.PROFILE_STATS_TOKEN }}
 
       - name: Commit generated trophy
         run: |
@@ -35,7 +34,7 @@ jobs:
             exit 0
           fi
           git config user.name "github-actions[bot]"
-          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git config user.email "41898282+users.noreply.github.com"
           git add .github/assets/trophy.svg
           git commit -m "Update GitHub profile trophies"
           git push
