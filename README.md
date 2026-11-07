@@ -238,7 +238,7 @@ Covered data preprocessing, visualization, statistical analysis and interpretati
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prasoonkashyap18&theme=github-compact&hide_border=true&area=true" width="100%" alt="Contribution activity graph" />
+<img src="./.github/assets/activity-graph.svg" width="100%" alt="Contribution activity graph" />
 
 </div>
 
