@@ -228,7 +228,7 @@ Covered data preprocessing, visualization, statistical analysis and interpretati
 
 <div align="center">
 
-<img src="https://github-profile-trophy.vercel.app/?username=prasoonkashyap18&theme=discord&no-frame=true&no-bg=true&margin-w=8&column=6" width="100%" alt="GitHub trophies" />
+<img src="https://github-profile-trophy.vercel.app/?username=prasoonkashyap18&theme=onedark&no-frame=true&no-bg=true&margin-w=8&column=6" width="100%" alt="GitHub trophies" />
 
 </div>
 
@@ -238,7 +238,7 @@ Covered data preprocessing, visualization, statistical analysis and interpretati
 
 <div align="center">
 
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=prasoonkashyap18&bg_color=0D0B18&color=C4B5FD&line=8B5CF6&point=E9D5FF&area=true&hide_border=true" width="100%" alt="Contribution activity graph" />
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=prasoonkashyap18&theme=github-compact&hide_border=true&area=true" width="100%" alt="Contribution activity graph" />
 
 </div>
 
@@ -248,7 +248,7 @@ Covered data preprocessing, visualization, statistical analysis and interpretati
 
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Animated contribution snake" />
+<picture>\n  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake-dark.svg" />\n  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake.svg" />\n  <img src="https://raw.githubusercontent.com/prasoonkashyap18/prasoonkashyap18/output/github-contribution-grid-snake.svg" width="100%" alt="Animated contribution snake" />\n</picture>
 
 </div>
 
