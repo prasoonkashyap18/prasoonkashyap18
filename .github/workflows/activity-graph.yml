@@ -1,0 +1,39 @@
+name: Generate contribution activity graph
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/activity-graph.yml"
+      - ".github/scripts/generate-activity-graph.py"
+  schedule:
+    - cron: "41 1 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate contribution graph
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: python3 .github/scripts/generate-activity-graph.py
+
+      - name: Commit generated graph
+        run: |
+          git add -f .github/assets/activity-graph.svg
+          if git diff --cached --quiet -- .github/assets/activity-graph.svg; then
+            echo "Activity graph is already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+users.noreply.github.com"
+          git commit -m "Update contribution activity graph"
+          git push
