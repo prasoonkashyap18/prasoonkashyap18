@@ -1,0 +1,44 @@
+name: Generate GitHub analytics
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - ".github/workflows/github-analytics.yml"
+      - ".github/scripts/generate-github-analytics.py"
+  schedule:
+    - cron: "17 2 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: profile-github-analytics
+  cancel-in-progress: false
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Generate analytics cards
+        env:
+          PROFILE_STATS_TOKEN: ${{ secrets.PROFILE_STATS_TOKEN }}
+        run: python3 .github/scripts/generate-github-analytics.py
+
+      - name: Commit analytics cards
+        run: |
+          git add -f .github/assets/github-stats.svg .github/assets/top-languages.svg .github/assets/streak.svg
+          if git diff --cached --quiet; then
+            echo "Analytics cards are already up to date."
+            exit 0
+          fi
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+users.noreply.github.com"
+          git commit -m "Update GitHub analytics cards"
+          git pull --rebase origin main
+          git push
